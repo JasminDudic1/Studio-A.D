@@ -1,6 +1,7 @@
 {
   "name": "angular-calendar-scheduler",
   "version": "1.10.1",
+  "homepage": ".",
   "license": "MIT",
   "private": false,
   "scripts": {
