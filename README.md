@@ -261,3 +261,4 @@ export class AppComponent implements OnInit {
 ## License
 
 This software is released under the MIT license. See [LICENSE](LICENSE) for more details.# Studio-A.D
+# Studio-AD
