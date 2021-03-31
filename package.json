@@ -31,16 +31,14 @@
     "@angular/cli": "~9.1.12",
     "@angular-devkit/build-angular": "~0.901.12",
     "typescript": "3.8.3",
+    "@angular/compiler": "^9.1.12",
     "@angular/compiler-cli": "^9.1.12"
   },
   "devDependencies": {
-    
     "@angular/animations": "^9.1.12",
     "@angular/cdk": "^9.2.4",
-
     "@angular/common": "^9.1.12",
-    "@angular/compiler": "^9.1.12",
-
+    
     "@angular/core": "^9.1.12",
     "@angular/forms": "^9.1.12",
     "@angular/language-service": "^9.1.12",
@@ -80,7 +78,6 @@
     "ts-node": "~8.5.4",
     "tslib": "^1.10.0",
     "tslint": "~5.5.0",
-    
     "zone.js": "~0.10.2"
   },
   "peerDependencies": {
