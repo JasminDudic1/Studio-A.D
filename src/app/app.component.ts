@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
   forceViewDays: number = DAYS_IN_WEEK;
   refresh: Subject<any> = new Subject();
   locale: string = 'en';
-  hourSegments: number = 6;
+  hourSegments: number = 1;
   weekStartsOn: number = 1;
   startsWithToday: boolean = false;
   activeDayIsOpen: boolean = true;
@@ -110,7 +110,7 @@ export class AppComponent implements OnInit {
   endDateModel: any;
   startDateModel: any;
 
-  public values: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
+  public values: number[] = [1, 2, 3, 6];
   public start: number[] = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
   public end: number[] = [16, 17, 18, 19, 20, 21, 22];
 
