@@ -22,7 +22,7 @@
     "release:npm": "npm run build:dist && npm publish dist",
     "release:yarn": "npm run build:dist && yarn publish dist",
     "release": "npm run release:git && npm run release:yarn",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ngcc"
   },
   "dependencies": {
     "json-stringify-date": "^1.0.2",
