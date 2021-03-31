@@ -138,7 +138,7 @@ export class AppComponent implements OnInit {
 
     this.segmentModifier = ((segment: SchedulerViewHourSegment): void => {
       segment.isDisabled = false;
-    }).bind(this);
+    }).bind(this); 
 
     this.eventModifier = ((event: CalendarSchedulerEvent): void => {
       event.isDisabled = false;
